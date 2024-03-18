@@ -85,7 +85,8 @@ const App = () => {
           );
         })}
       </div>
-      <div className="active">
+    <div className="list">
+    <div className="active">
         <button
           className="button"
           onClick={() => {
@@ -136,6 +137,7 @@ const App = () => {
           </ul>
         )}
       </div>
+    </div>
     </div>
   );
 };

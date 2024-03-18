@@ -71,6 +71,10 @@
     align-items: center;
     border-radius: 6px;
     padding: 5px;
+    overflow-x: scroll;
+  }
+  .app .todos .todo::-webkit-scrollbar{
+    display:none;
   }
   .app .todos .todo .left {
     display: flex;
@@ -97,16 +101,19 @@
     flex-direction: column;
     font-size: small;
     padding: 12px;
+    margin-right: 12px;
     
 }
 .button{
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  border-radius: 6px
+  background-color: rgba(51, 51, 51, 0.5);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  outline: none;
+  border: none;
 }
 .button:hover {
-  background-color: rgb(182, 178, 178);
-  color: rgb(0 0 0);
+  color: black;
+  background-color: #e6e6e6;
 }
 .app .completed {
   align-items: center;
@@ -121,6 +128,10 @@
   padding-top:44px;
  
 }
+.list{
+  display:flex;
+}
+
 
 
 
