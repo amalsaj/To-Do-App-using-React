@@ -71,10 +71,6 @@
     align-items: center;
     border-radius: 6px;
     padding: 5px;
-    overflow-x: scroll;
-  }
-  .app .todos .todo::-webkit-scrollbar{
-    display:none;
   }
   .app .todos .todo .left {
     display: flex;
